@@ -1,0 +1,19 @@
+li {
+    color:rgb(255, 0, 153);
+    display:flex;
+
+}
+.cplayers {
+    display:flex;
+}
+.fplayers {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.bplayers {
+    display:flex;
+}
+.f1players {
+    display:flex;
+}

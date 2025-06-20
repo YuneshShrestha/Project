@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Sports Live Streams</title>
+  <link rel="stylesheet" href="live.css">
+</head>
+<body>
+  <header>
+    <h1>Sports Live Streams</h1>
+    <p>Watch live & recently finished matches — Cricket, Football, Basketball, F1</p>
+  </header>
+
+  <main>
+    <template id="sport-template">
+      <section class="sport">
+        <h2></h2>
+        <div class="games live">
+          <h3>Live Now</h3>
+          <ul></ul>
+        </div>
+        <div class="games finished">
+          <h3>Recently Ended</h3>
+          <ul></ul>
+        </div>
+      </section>
+    </template>
+
+    <div id="container"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 All Sports Stream</p>
+  </footer>
+
+  <script src="live.js"></script>
+</body>
+</html>
